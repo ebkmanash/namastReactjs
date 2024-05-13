@@ -1,1 +1,22 @@
 started on 12 05 2024
+package.json configuration for npm
+npm install -d parcel
+parcel:Automatic production optimization – Parcel optimizes your whole app for production automatically.
+above one -d means dev dependencies
+two types of dependencies dev and normal
+1) dev : required in development phase
+2) normal: normal depencenciees used in production also
+
+diff between ~ vs ^ in depencenciees of package.json
+~ searches for major version 
+^ searches for minor update to install
+package.json has approcimate version on it with ~ or ^
+package.lock.json has exact version on it.
+Nodemodule: contains data base, conatains actual data. it fetches all the code and dependencies of system.
+
+-> if i have package.json and package.lock.json than i can recreate the node modules
+for production we need package.json and package.lock.json in repo.
+npm vs npx
+npm to install package.
+npx to execute a package
+CDN is the not a good way of react code writing, there is a another way also.
